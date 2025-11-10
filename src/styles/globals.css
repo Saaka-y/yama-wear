@@ -7,9 +7,9 @@
 }
 
 :root {
-  --background: #d0e7ed;
+  --background: #2c6f8f;
   --foreground: #171717;
-  --mountain-icon-color: #74885f;
+  --mountain-icon-color: #12453e;
 } 
 
 @theme inline {
