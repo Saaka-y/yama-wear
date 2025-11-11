@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { JapanMap } from "@/components/japanMap"
 import { MountainIcon } from "@/components/MountainIcon";
 
