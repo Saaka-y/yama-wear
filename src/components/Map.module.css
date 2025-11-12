@@ -1,0 +1,64 @@
+/* Map全体を画面中央に配置 */
+.mapWrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* 固定サイズの地図コンテナ */
+.mapContainer {
+  position: relative;
+  width: 380px;
+  height: 380px;
+}
+
+/* 画像は親のサイズにフィット */
+.mapImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+/* 各ブレイクポイントでサイズ変更 */
+
+@media (min-width: 380px) {
+  .mapContainer {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 430px) {
+  .mapContainer {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 540px) {
+  .mapContainer {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mapContainer {
+    width: 900px;
+    height: 900px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mapContainer {
+    width: 1000px;
+    height: 1000px;
+  }
+}

@@ -10,14 +10,13 @@ export function MountainIcon({ iconClassName, color = "var(--mountain-icon-color
   }
 
   return (
-    <div className={`relative z-20 inline-block ${iconClassName}`}>
+    <div className={`z-20 block ${iconClassName}`}>
       <svg
         className="
           transition-transform duration-200
           hover:scale-130
           hover:cursor-pointer
-          w-[clamp(2rem,5vw,3.5rem)]
-          h-[clamp(2rem,5vw,3.5rem)]
+          w-12 h-12
           "
         viewBox="0 0 512 512"
         color="var(--mountain-icon-color)"

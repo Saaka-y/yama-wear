@@ -27,7 +27,7 @@
 } */
 
 html, body {
-    background: var(--background);
+  background: var(--background);
   width: 100vw;
   height: 100vh;   /* 画面全体に固定 */
   overflow: hidden; /* スクロール禁止 */
